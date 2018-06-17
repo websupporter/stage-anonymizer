@@ -1,0 +1,30 @@
+{
+	"name": "websupporter/stage-anonymizer",
+	"description": "Anonymize user data in your stage environment.",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "GPL-2.0",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Inpsyde GmbH",
+			"homepage": "http://inpsyde.com/",
+			"email": "hallo@inpsyde.com",
+			"role": "Company"
+		},
+		{
+			"name": "David Remer",
+			"email": "webmaster@websupporter.net",
+			"role": "Developer"
+		}
+	],
+	"require": {
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Websupporter\\StageAnonymizer\\": "src/"
+		}
+	}
+}

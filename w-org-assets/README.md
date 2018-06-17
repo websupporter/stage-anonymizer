@@ -1,0 +1,1 @@
+# Stage Anonymizer assets for the wordpress.org repository
