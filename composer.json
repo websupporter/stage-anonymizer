@@ -19,6 +19,7 @@
 		}
 	],
 	"require": {
+		"inpsyde/assets": "^1.2"
 	},
 	"require-dev": {
 	},
