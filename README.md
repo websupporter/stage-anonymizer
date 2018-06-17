@@ -1,4 +1,4 @@
-# Websupporter Stage Anonymizer
+# Stage Anonymizer
 
 Anonymize user data in your stage environment.
 
@@ -6,7 +6,6 @@ Anonymize user data in your stage environment.
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Crafted by Inpsyde](#crafted-by-inpsyde)
 * [License](#license)
 * [Contributing](#contributing)
 
@@ -18,13 +17,13 @@ The best way to use this package is through Composer:
 $ composer require websupporter/stage-anonymizer
 ```
 
+But you can also download the zip and install it in the regular way.
+
 ## Usage
 
-`// Todo`
+After you have coppied your production database into your stage environment, you can navigate to Tools > Erase Personal Data. You will find a button "Stage Anonymizer". Once you hit the button, it will run the registered Erasers. In WordPress 4.9.6 this means the comments will be anonymized. For the anonymization of the stage database, there is an extra eraser registered, which will anonymize the default data of a user, like his first name, last name, email address etc. The current user as well as administrators are currently not anonymized.
 
-## Crafted by Inpsyde
-
-The team at [Inpsyde](http://inpsyde.com) is engineering the Web since 2006.
+Remember: The current state of this project is a "prove of concept". You are very welcome to test it and if you think its useful, also to use it, but do not be suprised, if you experience any bugs and similar stuff. So, use at your own risk :)
 
 ## License
 
