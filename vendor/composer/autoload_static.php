@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit32542b1ef5439c51ef549e4f07bd51c6
+class ComposerStaticInit55fb5b7f13341dba19592d5ba52b5054
 {
     public static $files = array (
         '75224de648373daee048deff719e279d' => __DIR__ . '/..' . '/inpsyde/assets/inc/functions.php',
@@ -36,8 +36,8 @@ class ComposerStaticInit32542b1ef5439c51ef549e4f07bd51c6
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit32542b1ef5439c51ef549e4f07bd51c6::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit32542b1ef5439c51ef549e4f07bd51c6::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit55fb5b7f13341dba19592d5ba52b5054::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit55fb5b7f13341dba19592d5ba52b5054::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
